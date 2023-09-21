@@ -51,7 +51,7 @@ struct AutocompleteTextField: View {
             }
         }
         .onAppear() {
-            choicesLowercased = choices.map { $0.lowercased() }
+            choicesLowercased = choices.map { $0.lowercased() }.sorted()
             filteredChoices = choicesLowercased
         }
     }

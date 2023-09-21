@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var choices = ["Great Wall of China", "Great Dane", "Aggregate", "Great balls of fire", "Zebra"]
+    @State private var choices = ["Great Wall of China", "Great Dane", "Aggregate", "Great balls of fire", "Zebra", "Catherine the Great"]
     
     var body: some View {
         VStack {
